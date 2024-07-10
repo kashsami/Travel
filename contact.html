@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Login</title>
+
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+ <div class="container">
+<div class="navbar" >
+ <div class="logo" >
+  <a href="/index.html">
+    <span class="icon-main" ><i class="fa-solid fa-route"></i></span>
+   </a>
+ </div>
+
+ <nav>
+   <ul id="menuItems" >
+     <li><a href="/index.html"><b>Home</b></a></li>
+     <li><a href="/place.html"><b>Place</b></a></li>
+     <li><a href="/about.html"><b>About</b></a></li>
+     <li><a href="/Book-place.html"><b>Details</b></a></li>
+     <li><a href="/contact.html"><b>Login</b></a></li>
+   </ul>
+ </nav>
+  <span id="menu-icon" onclick="menutoggle()" ><i class="fa-solid fa-bars"></i></span>
+  </div>
+  </div>
+
+   <!-- ******contact css ***** -->
+
+   <div class="contact-page">
+    <div class="container">
+      <div class="row">
+        <div class="col-2">
+          <img src="/images/02.jpg" width="100%">
+        </div>
+
+        <div class="col-2">
+          <div class="form-container">
+            <div class="form-btn">
+          <span onclick="login()">Login</span>
+          <hr id="Indicator" >
+        </div>
+
+          <form id="loginForm" >
+            <input type="text" placeholder="Username" required >
+            <input type="password" placeholder="Password" required >
+           <a href="/place.html" type="submit" class="btn"><b>Login</b></a>
+            <a href="/contact.html">Forgot password</a>
+          </form>
+        </div>
+      </div>
+    </div>
+   </div>
+  </div>
+
+  <!-- ***** Footer create *** -->
+
+  <div class="footer">
+   <div class="container">
+     <div class="row">
+       <div class="footer-col-1">
+         <h1><b>Download Our App</b></h1>
+         <br>
+         <h3><b>Download App for Android and ios mobile phone.</b></h3>
+         <br><br>
+         <span><i class="fa-brands fa-square-facebook"></i></span>
+         <span><i class="fa-brands fa-instagram"></i></span>
+         <span><i class="fa-brands fa-youtube"></i></span>
+
+       </div>
+     <div class="footer-col-2">
+       <h2>Support</h2>
+       <ul>
+         <li>Manage Your trips</li>
+         <li>Contact Customer Service</li>
+         <li>Safety resource center</li>
+       </ul>
+     </div>
+     <div class="footer-col-3">
+       <h2>Discover</h2>
+       <ul>
+         <li>Genius loyalty programme</li>
+         <li>Seasonal and holiday deals Travel articles</li>
+         <li>Booking.com for Business</li>
+         <li>Traveller Reviews Awards</li>
+         <li>Car hire</li>
+         <li>Flight finder</li>
+         <li>Restaurant reservations</li>
+         <li>Booking.com for Travel Agents</li>
+       </ul>
+     </div>
+     </div>
+   </div>
+  </div>
+
+
+  <script src="script.js" ></script>
+<script src="/image.click/img1click.js" ></script>
+ 
+</body>
+</html>
